@@ -5,6 +5,6 @@ go:
   - 1.7
 
 install:
-  - go install github.com/stretchr/testify
+  - go get github.com/stretchr/testify/...
 
 script: go test -v .
